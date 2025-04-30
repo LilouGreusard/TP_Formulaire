@@ -15,15 +15,15 @@
         <input type="text" class="form-control" id="nom" placeholder="nom" name="nom">
         </div>
 
-        <div class="mb-3">
-            <label for="message" class="form-label">Votre message :</label>
-            <textarea class="form-control" id="message" placeholder="message" name="message"></textarea>
-        </div>
-
         <select class="form-select" aria-label="Default select example" name="pays">
             <option selected value="fr">France</option>
             <option value="be">Belgique</option>
         </select>
+
+        <div class="mb-3">
+            <label for="message" class="form-label">Votre message :</label>
+            <textarea class="form-control" id="message" placeholder="message" name="message"></textarea>
+        </div>
         
         <div class="col-12">
             <button class="btn btn-primary" type="submit">Envoyer</button>
